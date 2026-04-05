@@ -8,5 +8,4 @@ directory = ".vercel/output/static"
 [observability]
 enabled = true
 
-[compatibility_flags]
-nodejs_compat = true
+compatibility_flags = ["nodejs_compat"]
