@@ -7,6 +7,7 @@ export default function Home() {
   return (
     <>
       <div className="background">
+          <div style={{ position: "fixed", top: 0, right: 0, padding: "10px", background: "red", color: "white", zIndex: 9999 }}>LATEST BUILD: {new Date().toLocaleString()}</div>
           <div className="blob blob-1"></div>
           <div className="blob blob-2"></div>
       </div>
