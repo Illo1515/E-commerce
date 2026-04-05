@@ -1,0 +1,20 @@
+const shopData = [
+  { id: 1, name: "[Best] 에브리데이 탄탄 무지 롱슬리브", price: 19900, originalPrice: 29000, discount: "31%", image: "https://via.placeholder.com/300?text=T-shirt", tag: "무료배송" },
+  { id: 2, name: "어디에나 찰떡핏, 사계절 슬랙스", price: 34900, originalPrice: 49000, discount: "28%", image: "https://via.placeholder.com/300?text=Slacks", tag: "품절임박" },
+  { id: 3, name: "남친룩의 정석, 프리미엄 캐시미어 섞인 가디건", price: 49900, originalPrice: 69900, discount: "28%", image: "https://via.placeholder.com/300?text=Cardigan", tag: "NEW" },
+  { id: 4, name: "구름 위를 걷는 듯 쿠셔닝 런닝화 화이트", price: 59000, originalPrice: 89000, discount: "33%", image: "https://via.placeholder.com/300?text=Shoes", tag: "무료배송" },
+  { id: 5, name: "1+1 특가! 데일리 오버핏 기모 맨투맨", price: 29900, originalPrice: 59800, discount: "50%", image: "https://via.placeholder.com/300?text=Sweatshirt", tag: "🔥초특가" },
+  { id: 6, name: "비 오는 날 필수템, 무광 레인 첼시부츠", price: 69900, originalPrice: 99000, discount: "29%", image: "https://via.placeholder.com/300?text=Boots", tag: "" },
+  { id: 7, name: "감성 듬뿍 코듀로이 볼캡 (4 Colors)", price: 15900, originalPrice: 25000, discount: "36%", image: "https://via.placeholder.com/300?text=Cap", tag: "BEST" },
+  { id: 8, name: "꾸안꾸 와이드 트레이닝 풀 셋업", price: 39900, originalPrice: 55000, discount: "27%", image: "https://via.placeholder.com/300?text=Setup", tag: "무료배송" },
+  { id: 9, name: "테이퍼드핏 원턱 치노팬츠 베이지", price: 32000, originalPrice: 45000, discount: "28%", image: "https://via.placeholder.com/300?text=Chinos", tag: "" },
+  { id: 10, name: "구름처럼 가벼운 미니멀 숏패딩", price: 89000, originalPrice: 129000, discount: "31%", image: "https://via.placeholder.com/300?text=Padding", tag: "한정수량" },
+  { id: 11, name: "단정함 끝판왕, 실키 터치 베이직 셔츠", price: 24900, originalPrice: 35000, discount: "28%", image: "https://via.placeholder.com/300?text=Shirt", tag: "" },
+  { id: 12, name: "포근한 첫눈 메리노 울 머플러", price: 19900, originalPrice: 30000, discount: "33%", image: "https://via.placeholder.com/300?text=Muffler", tag: "선물추천" },
+  { id: 13, name: "매일 들어도 안 질리는 스퀘어 레더 백", price: 45900, originalPrice: 70000, discount: "34%", image: "https://via.placeholder.com/300?text=Bag", tag: "무료배송" },
+  { id: 14, name: "힙스터 필수템, 카고 스트링 밴딩 조거", price: 32900, originalPrice: 48000, discount: "31%", image: "https://via.placeholder.com/300?text=Cargo", tag: "HOT" },
+  { id: 15, name: "지적인 무드 UP, 뿔테/금테 하프 안경", price: 21900, originalPrice: 39000, discount: "43%", image: "https://via.placeholder.com/300?text=Glasses", tag: "무료배송" },
+  { id: 16, name: "아웃도어 고프코어 방수 윈드브레이커", price: 79900, originalPrice: 119000, discount: "32%", image: "https://via.placeholder.com/300?text=Windbreaker", tag: "NEW" },
+  { id: 17, name: "어떤 옷에나 찰떡! 남녀공용 기본 니트", price: 25900, originalPrice: 35000, discount: "26%", image: "https://via.placeholder.com/300?text=Knit", tag: "품절임박" },
+  { id: 18, name: "캠핑/차박 체온유지용 투톤 플리스", price: 39900, originalPrice: 65000, discount: "38%", image: "https://via.placeholder.com/300?text=Fleece", tag: "BEST" }
+];
