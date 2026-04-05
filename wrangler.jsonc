@@ -1,11 +1,16 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "e-commerce",
+  "main": ".vercel/output/static/_worker.js/index.js",
   "compatibility_date": "2024-11-18",
-  "observability": {
-    "enabled": true
-  },
   "compatibility_flags": [
     "nodejs_compat"
-  ]
+  ],
+  "assets": {
+    "directory": ".vercel/output/static",
+    "binding": "ASSETS"
+  },
+  "observability": {
+    "enabled": true
+  }
 }
